@@ -1,6 +1,6 @@
 import { buttonVariants } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
-import { AlertCircle, ArrowLeft, Link, Mail } from "lucide-react";
+import { AlertCircle, ArrowBigLeft, ArrowLeft, Link, Mail } from "lucide-react";
 
 export default function verify(){
     return (
@@ -31,7 +31,6 @@ export default function verify(){
                         variant: "outline"
                     })}>
                         <ArrowLeft className="size-4 mr-2" /> Back to Homepage
-                        
                     </Link>
                 </CardFooter>
             </Card>

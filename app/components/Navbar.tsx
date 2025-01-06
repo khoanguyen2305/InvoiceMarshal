@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import LogoImage from "@/public/logo-songtu.png"
-import { buttonVariants } from "@/components/ui/button";
 import { RainbowButton } from "@/components/ui/rainbow-button";
 
 export function Navbar(){

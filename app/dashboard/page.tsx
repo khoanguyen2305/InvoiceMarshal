@@ -3,7 +3,6 @@ import { DashboardBlocks } from "../components/DashboardBlocks";
 import { EmptyState } from "../components/EmptyState";
 import { InvoiceGraph } from "../components/InvoiceGraph";
 import { RecentInvoices } from "../components/Recentinvoices";
-import { signOut } from "../utils/auth";
 import prisma from "../utils/db";
 import { requireUser } from "../utils/hooks";
 import { Skeleton } from "@/components/ui/skeleton";

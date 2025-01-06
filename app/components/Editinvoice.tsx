@@ -240,6 +240,7 @@ export function EditInvoice({data}: iAppProps){
                                     value={rate}
                                     onChange={(e) => setRate(e.target.value)}
                                     type="number"  placeholder="0"
+                
                                 />
                             <p className="text-sm text-red-500">{fields.invoiceItemRate.errors}</p>
                             </div>

@@ -5,7 +5,7 @@ import HeroImage from "@/public/Hero.png"
 
 export function Hero(){
     return(
-        <section className="relative flex flex-col items-center justify-center py-11 lg:py-20">
+        <section className="relative flex flex-col items-center justify-center py-14 lg:py-14">
             <div className="text-center">
                 <span className="text-sm text-primary font-medium tracking-tight bg-primary/10 px-4 py-2 rounded-full">Introducing InvoiceMarshal 1.0</span>
                 <h1 className="mt-8 text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-semibold tracking-tighter">
